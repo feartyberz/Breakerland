@@ -72,7 +72,6 @@ skill:
     description: |-
       &3Devoreur et leurs frappes sont des spécialistes des délits
       de fuite très corrosifs
-
       &e&lForce
       &2Rien ne peut dépasser un dévoreur,
       car ils ont des techniques puissantes
@@ -80,50 +79,50 @@ skill:
       et une frappe tout aussi corrosive.
 
       &e&lFaiblesse
-      &cLes dévoreur ont une faible capacité défensive.
-    evolvegliders-title: '&6évoluer Planeur'
-    evolvecloak-title: '&6évoluer Manteau'
-    evolvesadism-title: '&6évoluer Sadisme'
-    consume-title: '&6Consommer'
+      &cDevourers have weak defensive capability.
+    evolvegliders-title: '&6Evolve Gliders'
+    evolvecloak-title: '&6Evolve Cloak'
+    evolvesadism-title: '&6Evolve Sadism'
+    consume-title: '&6Consume'
     passive: |-
-      &3Votre attaque inflige de la corrosion
-      sur votre énemie, provoquant
-      une perte de &e%amount% &3santé
-      par secondes pendant 5 secondes.
+      &3Your attacks inflict corrosion
+      to your enemy, causing them
+      to lose &e%amount% &3health
+      per second for 5 seconds.
     evolvegliders: |-
-      &3Au sprint,
-      gain de &e%amount% &3vitesse.
+      &3When sprinting,
+      gain &e%amount% &3speed.
     evolvecloak: |-
-      &3 Niveau 1&8: &eGain d'invisibilité permanante.
-      lorsque vous attaquez, l'invisibilité
-      est désactiver pendant 30 secondes.
-      &3Niveau 2: &eLes monstres hostile ne 
-      prêteront plus attention.
-      si vous attaquez un monstre hostile la neutralité est
-      désactiver pendant 30 secondes.
-      Certains monstres comme l'Enderman,l'Endermite,
-      le Wither, Gardien et l'ender dragon
-      seront toujours en mesure de vous voir.
-      &3Niveau 3&8: &eLa première attaque que vous faites
-      avant de devenir invisible
-      donne &6%amount% &ede dommage supplémentaire.
-    invis-disabled: '&cVotre invisibilité est désactiver pendant 30 secondes'
-    invis-enabled: '&1Vous disparaissez dans l'obscurité...'
-    neutrality-disabled: '&cVotre neutralité est désactiver pendant 30 secondes'
-    neutrality-enabled: '&1Vous êtes neutre auprès des monstres.'
+      &3Level 1&8: &eGain invisibility permanently.
+      When you attack, the invisibility
+      is disabled for 30 seconds.
+      &3Level 2: &eHostile mobs will naturally
+      be neutral to you.
+      If you attack a mob, neutrality is
+      disabled for 30 seconds.
+      Some mobs like Enderman, endermite,
+      wither, guardians and the ender dragon
+      will be still able to see you.
+      &3Level 3&8: &eThe first attack you make
+      before becoming invisible will
+      deal &6%amount% &emore damage.
+    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
+    invis-enabled: '&1You fade into the darkness...'
+    neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
+    neutrality-enabled: '&1You are now neutral to mobs.'
     evolvesadism: |-
-      &3Faites évoluer votre capacité à ne pas avoir de conscience
-      En attaquant,vous vous délecter de vo(s)tre
-      cible(s) souffrance, vous donne
-      &e%amount% &3une chance de vous guérir
-      d'un coeur par attaque.
+      &3Evolve the ability to have no conscience.
+      When attacking, you delight off your
+      target's suffering, giving a
+      &e%amount% &3chance of healing you
+      for 1 health per attack.
     consume: |-
-      &3Clique droit pour activer.
-      Mordre votre cible &e%amount%
-      &3dégats,avec 1 supplémentaire
-      dommage par 5% des points de vie manquants de la cible.
-      Si la cible meurt,vous êtes guéri de
-      50% maximum de votre vitalité.
+      &3Right click to activate.
+      Bite your target, dealing &e%amount%
+      &3damage, along with 1 additional
+      damage per 5% missing health the target has.
+      If target dies, you are healed by
+      50% of your maximum health.
     ready-activation-message: '&3*Your teeth glint with glee* Hit a target to activate
       Consume'
     notready-activation-message: '&7*You save your meal for another time*'
