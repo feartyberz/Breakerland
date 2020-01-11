@@ -21,121 +21,116 @@ actionbar:
     full-second: '&e&o┃'
 skill:
   swordsman:
-    name: Combattant
+    name: Epéiste
     description: |-
-      &3Swordsmen are the prime of all melee
-      battles, with superior damage
-      and close-range capabilities.
+      &3Les épéiste sont les premier de toutes 
+      les batailles de mêlée,avec des dégâts 
+      supérieurs et des capacités à courtes distance
 
-      &e&lStrength
-      &2Swordsmen are strong in
-      one on one battles,
-      and can win most other
-      skills if fought well.
+      &e&lForce
+      &2Les épéiste sont forts en batailles individuelles,
+      et peut gagner la plupart des autres si il se defend bien.
 
-      &e&lWeakness
-      &cSwordsmen don't have powerful ranged
-      capabilities, and can be outmatched
-      by ranged attacks.
-    dodge-title: '&6Dodge'
-    parry-title: '&6Parry'
-    pierce-title: '&6Pierce'
-    thousandcuts-title: '&6Thousand Cuts'
-    passive: '&3Your attack is increased by &e%amount%%'
+      &e&lFaiblesse
+      &cLes épéiste craingnent les attaques à distance.
+    dodge-title: '&6Esquive'
+    parry-title: '&6Parer'
+    pierce-title: '&6Transpercer'
+    thousandcuts-title: '&6Mille coupes'
+    passive: '&3Votre attaque est augmentée de &e%amount%%'
     dodge: |-
-      &3You have a &e%amount%% &3of dodging
-      your opponent's attack.
-      Maximum of &640%
-    dodge-opponent-message: '&cYour attack was dodged!'
-    dodge-message: '&3Dodged attack!'
+      &3Vous avez un &e%amount%% &3d'esquiver
+      l'attaque de votre adversaire.
+      Maximum de &640%
+    dodge-opponent-message: '&cVotre attaque a été esquivée!'
+    dodge-message: '&3Attaque esquivée!'
     parry: |-
-      &3If you are holding a sword,
-      and your opponent has lesser
-      &eSTR &3than you, you reflect &e%amount%
-      &3damage back to your opponent
+      &3Si vous tenez une épée,
+      et votre adversaire a moins
+      &eSTR &3moins que toi,tu réfléchis &e%amount%
+      &3dommages à votre adversaire.
     pierce: |-
-      &3If your &6STR &3is higher
-      than your opponent's &4DEF&3,
-      your attack will deal &e%amount%%
-      &3more damage
+      &3Si vous &6STR &3est plus élevé
+      que celle de votre adversaire &4DEF&3,
+      votre attaque s'occupera &e%amount%%
+      &3plus de dégats
     thousandcuts: |-
-      &3Right click to activate
-      while holding a sword
-      &3Does &e%amount% &3damage per
-      hit to the next target you attack,
-      while disorienting them each hit
-      for the next 2 seconds.
-    active-activation-message: '&3&lThousand Cuts activated! Hit your target as many
-      times as you can!'
-    active-finished-message: '&c&lThousand Cuts has worn off'
-    ready-activation-message: '&3*You raise your weapon* Hit a target to activate
-      Thousand Cuts'
-    notready-activation-message: '&7*You lower your weapon*'
+      &3Clic droit pour activer
+      en tenant une épée
+      &3Est-ce que &e%amount% &3dégâts
+      par coup à la prochaine cible que vous attaquerais,
+      tout en les désorientant à chaque coup,
+      pendant les deux prochaines secondes.
+    active-activation-message: '&3&lMille coupures activées ! Frappez votre cible autnt
+    de fois que vous le pouvez !'
+    active-finished-message: '&c&lMille coupures est terminé'
+    ready-activation-message: '&3*Vous levez votre arme* Tapez votre cible pour activer
+      Mille coupure'
+    notready-activation-message: '&7*Vous rabaissez votre arme*'
   devourer:
-    name: Cannibale
+    name: Devoreur
     description: |-
-      &3Devourers are fast, agile, and
-      their strikes are very corrosive.
-      Hit-and-run specialists.
+      &3Devoreur et leurs frappes sont des spécialistes des délits
+      de fuite très corrosifs
 
-      &e&lStrength
-      &2Nothing can outrun a devourer,
-      as they have powerful techniques to
-      get away from danger,
-      and an equally corrosive strike.
+      &e&lForce
+      &2Rien ne peut dépasser un dévoreur,
+      car ils ont des techniques puissantes
+      pour échapper au danger,
+      et une frappe tout aussi corrosive.
 
-      &e&lWeakness
-      &cDevourers have weak defensive capability.
-    evolvegliders-title: '&6Evolve Gliders'
-    evolvecloak-title: '&6Evolve Cloak'
-    evolvesadism-title: '&6Evolve Sadism'
-    consume-title: '&6Consume'
+      &e&lFaiblesse
+      &cLes dévoreur ont une faible capacité défensive.
+    evolvegliders-title: '&6évoluer Planeur'
+    evolvecloak-title: '&6évoluer Manteau'
+    evolvesadism-title: '&6évoluer Sadisme'
+    consume-title: '&6Consommer'
     passive: |-
-      &3Your attacks inflict corrosion
-      to your enemy, causing them
-      to lose &e%amount% &3health
-      per second for 5 seconds.
+      &3Votre attaque inflige de la corrosion
+      sur votre énemie, provoquant
+      une perte de &e%amount% &3santé
+      par secondes pendant 5 secondes.
     evolvegliders: |-
-      &3When sprinting,
-      gain &e%amount% &3speed.
+      &3Au sprint,
+      gain de &e%amount% &3vitesse.
     evolvecloak: |-
-      &3Level 1&8: &eGain invisibility permanently.
-      When you attack, the invisibility
-      is disabled for 30 seconds.
-      &3Level 2: &eHostile mobs will naturally
-      be neutral to you.
-      If you attack a mob, neutrality is
-      disabled for 30 seconds.
-      Some mobs like Enderman, endermite,
-      wither, guardians and the ender dragon
-      will be still able to see you.
-      &3Level 3&8: &eThe first attack you make
-      before becoming invisible will
-      deal &6%amount% &emore damage.
-    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
-    invis-enabled: '&1You fade into the darkness...'
-    neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
-    neutrality-enabled: '&1You are now neutral to mobs.'
+      &3 Niveau 1&8: &eGain d'invisibilité permanante.
+      lorsque vous attaquez, l'invisibilité
+      est désactiver pendant 30 secondes.
+      &3Niveau 2: &eLes monstres hostile ne 
+      prêteront plus attention.
+      si vous attaquez un monstre hostile la neutralité est
+      désactiver pendant 30 secondes.
+      Certains monstres comme l'Enderman,l'Endermite,
+      le Wither, Gardien et l'ender dragon
+      seront toujours en mesure de vous voir.
+      &3Niveau 3&8: &eLa première attaque que vous faites
+      avant de devenir invisible
+      donne &6%amount% &ede dommage supplémentaire.
+    invis-disabled: '&cVotre invisibilité est désactiver pendant 30 secondes'
+    invis-enabled: '&1Vous disparaissez dans l'obscurité...'
+    neutrality-disabled: '&cVotre neutralité est désactiver pendant 30 secondes'
+    neutrality-enabled: '&1Vous êtes neutre auprès des monstres.'
     evolvesadism: |-
-      &3Evolve the ability to have no conscience.
-      When attacking, you delight off your
-      target's suffering, giving a
-      &e%amount% &3chance of healing you
-      for 1 health per attack.
+      &3Faites évoluer votre capacité à ne pas avoir de conscience
+      En attaquant,vous vous délecter de vo(s)tre
+      cible(s) souffrance, vous donne
+      &e%amount% &3une chance de vous guérir
+      d'un coeur par attaque.
     consume: |-
-      &3Right click to activate.
-      Bite your target, dealing &e%amount%
-      &3damage, along with 1 additional
-      damage per 5% missing health the target has.
-      If target dies, you are healed by
-      50% of your maximum health.
+      &3Clique droit pour activer.
+      Mordre votre cible &e%amount%
+      &3dégats,avec 1 supplémentaire
+      dommage par 5% des points de vie manquants de la cible.
+      Si la cible meurt,vous êtes guéri de
+      50% maximum de votre vitalité.
     ready-activation-message: '&3*Your teeth glint with glee* Hit a target to activate
       Consume'
     notready-activation-message: '&7*You save your meal for another time*'
     activation-message: '&3&l*CHOMP!*'
     heal-message: '&3&lYou feast off your victim, regaining %amount% health'
   mage:
-    name: Magicien
+    name: Mage
     description: |-
       &3Mages are masters of offensive
       and defensive magic,
@@ -189,7 +184,7 @@ skill:
     notready-activation-message: '&7*Your staff dims*'
     activation-message: '&3&l*WHOOSH!*'
   firemage:
-    name: Enchanteur
+    name: Mage du feu
     description: |-
       &3FireMages, unlike Mages,
       are fully focused on
@@ -236,7 +231,7 @@ skill:
     notready-activation-message: '&7*The power dissipates*'
     activation-message: '&3&lYour target is blasted with infernal power!'
   juggernaut:
-    name: Templier
+    name: Juggernaut
     description: |-
       &3The most durable warriors,
       juggernauts are powerful behemoths
@@ -475,7 +470,7 @@ skill:
     shield-speed: '&3Your shield shatters to give you speed!'
     attack-boost: '&3You expell your charged attack to deal %damage%% more damage!'
   priest:
-    name: Prêtre
+    name: Prêtre &8(&2&lNEW&8)
     description: |-
       &3Priests are mainly supporters
       that can play a huge role in a team.
@@ -548,10 +543,10 @@ energy:
   imbalance: Imbalance
 command:
   help:
-    pages-header: '&8&l&m--------------(&a&l Skills &e%page%&7/&e%maxpages% &8&l&m)--------------'
-    no-hidden-pages: '&cIl n'y à pas de pages cachés.'
+    pages-header: '&8&l&m--------------(&6&l Skills &e%page%&7/&e%maxpages% &8&l&m)--------------'
+    no-hidden-pages: '&cThere are no hidden pages.'
     pages-commands: '&7/&3Skills %cmd% &8- &e%description%'
-    grouped-header: '&8&l&m--------------(&a&l %group% &8&l&m)--------------'
+    grouped-header: '&8&l&m--------------(&6&l %group% &8&l&m)--------------'
     grouped-commands: '&7/&3Skills %cmd% &8- &e%description%'
     select: '&eUse to select a skill'
     info: '&eUse to see your skill level, stats and improvements'
@@ -562,7 +557,7 @@ command:
     see: '&eUse to see the skill information of another player'
     stat: '&eUse to manage your statpoints'
     mastery: '&eUse to manage your masteries'
-    help: '&eAffiche ce menu'
+    help: '&eUse to display commands'
     setsouls: '&eUse to manipulate player soul count'
     setlevel: '&eUse to manipulate level of a player'
     setxp: '&eUse to manipulate xp of a player. Player must be online'
