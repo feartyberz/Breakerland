@@ -79,62 +79,62 @@ skill:
       et une frappe tout aussi corrosive.
 
       &e&lFaiblesse
-      &cDevourers have weak defensive capability.
-    evolvegliders-title: '&6Evolve Gliders'
-    evolvecloak-title: '&6Evolve Cloak'
-    evolvesadism-title: '&6Evolve Sadism'
-    consume-title: '&6Consume'
+      &cLes dévoreurs ont une faible capacité défensive.
+    evolvegliders-title: '&6Evoluer Planeur'
+    evolvecloak-title: '&6Evoluer Manteau'
+    evolvesadism-title: '&6Evolve Sadisme'
+    consume-title: '&6Consummer'
     passive: |-
-      &3Your attacks inflict corrosion
-      to your enemy, causing them
-      to lose &e%amount% &3health
-      per second for 5 seconds.
+      &3Vos attaques infligent de la corrosion
+      à votre ennemi, les provoquant
+      la perte de &e%amount% &3health
+      par seconde pendant 5 secondes.
     evolvegliders: |-
-      &3When sprinting,
-      gain &e%amount% &3speed.
+      &3Au sprint,
+      vous gagnez &e%amount% &3speed.
     evolvecloak: |-
-      &3Level 1&8: &eGain invisibility permanently.
-      When you attack, the invisibility
-      is disabled for 30 seconds.
-      &3Level 2: &eHostile mobs will naturally
-      be neutral to you.
-      If you attack a mob, neutrality is
-      disabled for 30 seconds.
-      Some mobs like Enderman, endermite,
-      wither, guardians and the ender dragon
-      will be still able to see you.
-      &3Level 3&8: &eThe first attack you make
-      before becoming invisible will
-      deal &6%amount% &emore damage.
-    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
-    invis-enabled: '&1You fade into the darkness...'
-    neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
-    neutrality-enabled: '&1You are now neutral to mobs.'
+      &3Level 1&8: &eGagnez l'invisibilité en permanence.
+      Lorsque vous attaquez, l'invisibilité
+       est désactivé pendant 30 secondes.
+      &3Level 2: &eLes foules hostiles seront naturellement
+       soyez neutre envers vous.
+      Si vous attaquez un monstre, la neutralité est
+       désactivé pendant 30 secondes.
+       Certains monstres comme Enderman, endermite,
+       Wither, gardiens et le Enderdragon
+       sera toujours en mesure de vous voir.
+      &3Level 3&8: &eLa première attaque que vous faites
+      avant de devenir invisible
+       fait &6%amount% &eplus de dégâts.
+    invis-disabled: '&c'
+    invis-enabled: '&1Vous disparaissez dans l'obscurité ...'
+    neutrality-disabled: '&cVotre neutralité est désactivée pendant 30 secondes!'
+    neutrality-enabled: '&1Vous êtes désormais neutre vis-à-vis des monstres.'
     evolvesadism: |-
-      &3Evolve the ability to have no conscience.
-      When attacking, you delight off your
-      target's suffering, giving a
-      &e%amount% &3chance of healing you
-      for 1 health per attack.
+      &3Faites évoluer votre capacité à ne pas avoir de conscience.
+       En attaquant, vous vous délectez de votre
+       souffrance de la cible, donnant
+      &e%amount% &3chance de vous guérir
+       pour 1 santé par attaque.
     consume: |-
-      &3Right click to activate.
-      Bite your target, dealing &e%amount%
-      &3damage, along with 1 additional
-      damage per 5% missing health the target has.
-      If target dies, you are healed by
-      50% of your maximum health.
-    ready-activation-message: '&3*Your teeth glint with glee* Hit a target to activate
-      Consume'
-    notready-activation-message: '&7*You save your meal for another time*'
-    activation-message: '&3&l*CHOMP!*'
-    heal-message: '&3&lYou feast off your victim, regaining %amount% health'
+      &3Faites un clic droit pour l'activer.
+      Mordez votre cible, et donner &e%amount%
+      &3dégâts, avec 1 supplémentaire
+       dégâts par 5% des points de vie manquants de la cible.
+       Si la cible meurt, vous êtes guéri par
+       50% de votre santé maximale.
+    ready-activation-message: '&3*Vos dents brillent de joie * Frappez une cible pour l'activer
+       Consommer'
+    notready-activation-message: '&7*Vous enregistrez votre repas pour une autre fois*'
+    activation-message: '&3&l*Vous mâcher!*'
+    heal-message: '&3&lVous vous délecter votre victime en regagnant%amount% santer'
   mage:
     name: Mage
     description: |-
-      &3Mages are masters of offensive
-      and defensive magic,
-      and battle with Staffs to cast
-      spells and curses on their enemies.
+      &3Les mages sont maîtres de l'offensive
+       et la magie défensive,
+       et se battre avec des états-majors pour lancer
+       sorts et malédictions sur leurs ennemis.
 
       &e&lStrength
       &2Mages can counter many skill
