@@ -274,75 +274,75 @@ skill:
     active-activated-message: '&3&lVous attrapez votre adversaire au-dessus de votre tête!'
     active-throw-message-countdown: '&c&lAIM! Lancer votre adversaire dans une direction
        dans %countdown%'
-    active-throw-success: '&3&lJete la cible à l'emplacement!'
-    aegis-success: '&3Votre bouclier égide bloque l'attaque!'
+    active-throw-success: '&3&lJete la cible à l emplacement!'
+    aegis-success: '&3Votre bouclier égide bloque l attaque!'
   arbalist:
-    name: Archer
+    name: Arbalétriers
     description: |-
-      &3Arbalists are adaptive,
-      with different playstyles,
-      up front battle, and sniping from afar.
-      Arbalists utilize Crossbows to fight.
+      &3Arbalétriers sont adaptatifs,
+      avec différents styles de jeu,
+      bataille frontale, et tir de loin.
+      Les arbalétriers utilisent des arbalètes pour se battre.
 
-      &e&lStrength
-      &2Arbalists can deal a lot of damage,
-      if the target fails to reach the
-      arbalist in time, and also have
-      a lot of knockback capabilities.
+      &e&lForce
+      &2Les arbalétriers peuvent infliger beaucoup de dégâts,
+      si la cible ne parvient pas à atteindre l 
+      arbalétriers à temps, et ont également
+      beaucoup de capacités de renversement.
 
-      &e&lWeakness
-      &cArbalists are weak in
-      short range combat,
-      and only rely on knockback to
-      keep their enemies at bay.
-    execute-title: '&6Execute'
-    dualarrow-title: '&6Dual Arrow'
-    minions-title: '&6Minions Arrow'
-    firecrossbow-title: '&6Fire Crossbow'
+      &e&lFaiblesse
+      &cLes arbalétriers sont faibles à
+      courte distance,
+      et ne compte que sur le recul pour
+      garder leurs ennemis à distance.
+    execute-title: '&6Exécuter'
+    dualarrow-title: '&6Double Flèches'
+    minions-title: '&6Flèche charmante'
+    firecrossbow-title: '&6Arbalète de feu'
     passive: |-
-      &3The longer the distance
-      between you and your target,
-      the higher the damage.
+      &3Plus la distance est longue
+      entre vous et votre cible,
+      plus les dégâts sont importants.
     execute: |-
-      &3After shooting a single target
-      2 times in a row, have a chance to
-      perform one of these combos.
+      &3Après avoir tiré une seule cible
+      2 fois de suite, avoir la chance de
+      effectuez l un de ces combos.
 
-      &eLevel 1&8: &3Have a chance to set
-      your target on fire for 5 seconds.
-      &eLevel 2&8: &3Have a chance to poison
-      your target.
-      &eLevel 3&8: &3Have a chance to strike
-      a lightning on your target.
+      &eLevel 1&8: &3Avoir la chance de mettre le feu
+      à votre cible pendant 5 secondes.
+      &eLevel 2&8: &3Avoir une chance d empoisonner
+      votre cible.
+      &eLevel 3&8: &3Avoir une chance de frapper
+      de lumière votre cible.
 
-      Chances will increase the more
-      you shoot the target.
-      Your combo will reset if you miss
-      or hit another target.
+      Les chances augmenteront plus
+      vous tirez sur la cible.
+      Votre combo sera réinitialisé si vous manquez
+      ou a frappé une autre cible.
     dualarrow: |-
-      &3Level 1&8: &eYour crossbow and
-      bow can fire two arrows at once.
-      The second arrow deals 50% damage.
-      &3Level 2&8: &eThe second arrow does 100% damage.
-      &3Level 3&8: &eThe second arrow does 100% damage,
-      along with &6%amount%% &ebonus damage.
+      &3Level 1&8: &eVotre arbalète et
+      l arc peut tirer deux flèches à la fois.
+      La deuxième flèche inflige 50% de dégâts.
+      &3Level 2&8: &eLa deuxième flèche inflige 100% de dégâts.
+      &3Level 3&8: &eLa deuxième flèche fait 100% de dégâts,
+      de même que &6%amount%% &een Bonus dégats.
     minions-description: |-
-      &3Right-click and shoot to
-      spawn minion skeletons that will
-      fight for you.
+      &3Faites un clic droit et tirez sur
+      une cible crée des sbires ils combattrons pour vous
+      une fois votre cible morte il partent également.
 
-      &eLevel 1&8: &3One skeleton
-      &eLevel 2&8: &3Two skeletons with invisibility
-      effect and better bows.
-      &eLevel 3&8: &33 Pillagers with invisibility
-      and flame arrows.
-    minions-msg: '&cYou spawned your minions.'
+      &eLevel 1&8: &3Un sbire
+      &eLevel 2&8: &3Deux sbire invisible
+      effet et meilleurs arcs.
+      &eLevel 3&8: &33 Pillagers sbire invisible
+      avec flèche de feu.
+    minions-msg: '&cVous créer vos sbires.'
     firecrossbow: |-
-      &3Fire an arrow at your enemy
-      by punching. Does not use arrows,
-      and instead uses energy.
-      Upgrade to reduce cooldown
-    activation-msg: '&3Arrow launched!'
+      &3Tire une flèche sur ton ennemi
+      par poinçonnage. N utilise pas de flèches,
+      et utilise plutôt l énergie.
+      évoluer pour réduire le temps de recharge.
+    activation-msg: '&3Flèche lancée!'
   vampire:
     name: Vampire
     description: |-
