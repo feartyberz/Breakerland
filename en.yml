@@ -98,14 +98,14 @@ skill:
       est désactivé pendant 30 secondes.
       &3Level 2: &eLes monstre hostile
       sont neutre envers vous.
-      If you attack a mob, neutrality is
-      disabled for 30 seconds.
-      Some mobs like Enderman, endermite,
-      wither, guardians and the ender dragon
-      will be still able to see you.
-      &3Level 3&8: &eThe first attack you make
-      before becoming invisible will
-      deal &6%amount% &emore damage.
+      Si vous attaquez un monstre l'invisibilité
+      est suspendu pendant 30 secondes.
+      Certains monstres comme Enderman, endermite,
+      wither, guardians et le ender dragon
+      ne sont pas affecter par votre cape.
+      &3Level 3&8: &eLa première attaque que vous faites
+      avant de devenir volontairement invisible
+      inflige &6%amount% &eplus de dégat.
     invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
     invis-enabled: '&1You fade into the darkness...'
     neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
