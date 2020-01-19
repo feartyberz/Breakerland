@@ -79,25 +79,25 @@ skill:
       et une frappe tout aussi corrosive.
 
       &e&lFaiblesse
-      &cDevourers have weak defensive capability.
-    evolvegliders-title: '&6Evolve Gliders'
-    evolvecloak-title: '&6Evolve Cloak'
-    evolvesadism-title: '&6Evolve Sadism'
-    consume-title: '&6Consume'
+      &cLes dévoreurs ont une faible capacité défensive.
+    evolvegliders-title: '&6Evoluer Planeur'
+    evolvecloak-title: '&6Evoluer Cape'
+    evolvesadism-title: '&6Evoluer Sadisme'
+    consume-title: '&6Consummer'
     passive: |-
-      &3Your attacks inflict corrosion
-      to your enemy, causing them
-      to lose &e%amount% &3health
-      per second for 5 seconds.
+      &3Votre attaque inflige de la corrosion
+      à votre enemie, leur
+      faisant perdre &e%amount% &3santé
+      par seconde pendant 5 seconde.
     evolvegliders: |-
-      &3When sprinting,
-      gain &e%amount% &3speed.
+      &3Au sprint,
+      gagner &e%amount% &3vitesse.
     evolvecloak: |-
-      &3Level 1&8: &eGain invisibility permanently.
-      When you attack, the invisibility
-      is disabled for 30 seconds.
-      &3Level 2: &eHostile mobs will naturally
-      be neutral to you.
+      &3Level 1&8: &eGagnez l'invisibilité en permanence.
+      Lorsque vous attaquez, l'invisibilité
+      est désactivé pendant 30 secondes.
+      &3Level 2: &eLes monstre hostile
+      sont neutre envers vous.
       If you attack a mob, neutrality is
       disabled for 30 seconds.
       Some mobs like Enderman, endermite,
