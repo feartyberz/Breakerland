@@ -125,56 +125,56 @@ skill:
   mage:
     name: Mage
     description: |-
-      &3Mages are masters of offensive
-      and defensive magic,
-      and battle with Staffs to cast
-      spells and curses on their enemies.
+      &3Les mages sont maîtres de l offensive
+      et défense magique,
+      et se battre avec des bâtons pour lancer des
+      sorts et malédictions sur leurs ennemis.
 
-      &e&lStrength
-      &2Mages can counter many skill
-      types as their attacks with
-      Staffs can cause different
-      attacks to occur.
+      &e&lForce
+      &2Les mages peuvent contrer de nombreuse types de
+      compétences que leurs attaques avec un
+      bâton peut provoquer différentes
+      attaques.
 
-      &e&lWeakness
-      &cMages rely on Mana,
-      and are severely weakened without it.
-    reflect-title: '&6Reflect'
-    explosionspell-title: '&6Explosion Spell'
-    healspell-title: '&6Heal Spell'
-    energyflux-title: '&6Energy Flux'
+      &e&lFaiblesse
+      &cLes mages comptent sur leurs mana,
+      et sont gravement affaiblis sans cela.
+    reflect-title: '&6Reflet'
+    explosionspell-title: '&6Explosion de sorts'
+    healspell-title: '&6Sort de soin'
+    energyflux-title: '&6Flux énergique'
     passivev2: |-
-      &3When attacking with staffs (hoe),
-      you gain back &e%amount% &3mana per hit.
-      Attacking with hoes will deal more damage,
-      ranging from 3 for a wooden hoe,
-      to 10 for a diamond hoe.
+      &3Lorsque vous attaquez avec des bâtons (hoe),
+      vous regagnez &e%amount% &3mana par coup.
+      Attaquer avec des houes fera plus de dégâts,
+      allant de 3 pour une houe en bois,
+      à 10 pour une houe diamant.
     reflect: |-
-      &3When you are attacked, and you're holding
-      a staff, have a chance
-      (based on your staff material)
-      to deal &e%amount% &3to the attacker.
+      &3Lorsque vous êtes attaqué et que vous tenez
+      un bâton, vous avez une chance
+      (sur la base de votre matériel personnel)
+      a donner &e%amount% &3à l'attaquant.
     explosionspell: |-
-      &3When you are attacking, and you're holding a
-      staff, have a chance
-      (based on your staff material)
-      to deal &e%amount%% &3more damage to your enemy.
+      &3Lorsque vous attaquez et que vous tenez un
+      baton, vous avez une chance
+      (sur la base de votre matériel personnel)
+      de donner &e%amount%% &3plus de dégats à votre énemie.
     healspell: |-
-      &3For every 10 mana you have,
-      regenerate &e%amount%&3 additional health,
-      if your health is over 20.
+      &3Pour 10 manas que vous avez,
+      régénérer &e%amount%&3 santé supplémentaire,
+      si votre santé est supérieure à 20.
     energyfluxv2: |-
-      &3When right-clicking with a hoe,
-      rapidly fire energy bolts that
-      deal &e%amount% &3damage in a line.
-      Repeated hits on the same target
-      within &6%cooldown%s &3will
-      deal &650% &3less damage.
-      More levels gives you more
-      distance to hit your target.
-    ready-activation-message: '&3*Your staff glows with powerful magic!* Punch in
-      a direction to fire Energy Flux'
-    notready-activation-message: '&7*Your staff dims*'
+      &3Lors d'un clic droit avec une houe,
+      tirer rapidement des boulons d'énergie
+      et donner &e%amount% &3dégâts en ligne.
+      coups répétés sur la même cible
+      dans &6%cooldown%s &3volonté
+      de donner &650% &3moins de dégâts.
+      Plus de niveaux vous en donne plus
+      distance pour atteindre votre cible.
+    ready-activation-message: '&3*Votre bâton brille d une magie puissante!* Coup de houe dans
+       une direction pour tirer le flux d énergie'
+    notready-activation-message: '&7*Votre bâton faiblit*'
     activation-message: '&3&l*WHOOSH!*'
   firemage:
     name: Mage du feu
