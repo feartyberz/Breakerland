@@ -179,104 +179,103 @@ skill:
   firemage:
     name: Mage du feu
     description: |-
-      &3FireMages, unlike Mages,
-      are fully focused on
-      fire-based offensive spells,
-      and don't use staffs.
-      They cast spells by
-      expending their own health.
+      &3Mages de feu, contrairement aux mages,
+      sont entièrement concentrés sur
+      sorts offensifs basés sur le feu,
+      et n'utilisez pas de baton.
+      Ils lancent des sorts par
+      dépenser leur propre santé.
 
-      &e&lStrength
-      &2While health is spent on spells,
-      the spells can deliver devastating
-      blows to your foes.
+      &e&lForce
+      &2Alors que la santé est dépensée en sorts,
+      les sorts peuvent être dévastateurs
+      souffle vos ennemis.
 
-      &e&lWeakness
-      &cFireMages are weak against
-      fire-resistance potions.
-    absorbenergy-title: '&6Absorb Energy'
+      &e&lFaiblesse
+      &cLes mages de feu sont faibles contre
+      potions résistantes au feu.
+    absorbenergy-title: '&6Absorber l énergie'
     phoenixessence-title: '&6Phoenix Essence'
-    blackfire-title: '&6Black Fire'
+    blackfire-title: '&6Feu noir'
     inferno-title: '&6Inferno'
     passivev2: |-
-      &3When on fire, regain &e%amount% &3extra
-      health when healing.
-      You are also immune to fire damage.
+      &3En feu, regagnez &e%amount% &3supplémentaire
+      la santé lors de la guérison.
+      Vous êtes également immunisé contre les dégâts de feu.
     absorbenergy: |-
-      &3When attacked, your next attack will
-      set your targets on fire
-      for up to &e%amount% &3seconds.
+      &3En cas d'attaque, votre prochaine attaque
+      mettez le feu à vos cibles
+      jusqu'à &e%amount% &3 secondes.
     phoenixessence: |-
-      &3Deal &e%amount%% &3more damage
-      for every &61 second
-      &3your target is on fire for.
+      &3Donne &e%amount%% &3plus de dégats
+      pour chaque &61 seconde
+      &3votre cible est en feu depuis.
     blackfire: |-
-      &3When targets in a radius
-      of &65 blocks &3to you,
-      increase their fire damage by &e%amount%
+      &3Lorsque les cibles est dans un rayon
+      de &65 blocks &3de vous,
+      augmenter leurs dégâts de feu par &e%amount%
     inferno: |-
-      &3Right click, and hit a target
-      with your staff to activate.
-      Immediately deal &e%amount% &3damage,
-      plus 1 damage per 20 fireticks the target has
-    ready-activation-message: '&3*Your hands burns with power* Hit a target to activate
-      Inferno'
-    notready-activation-message: '&7*The power dissipates*'
-    activation-message: '&3&lYour target is blasted with infernal power!'
+      &3Faites un clic droit et frappez une cible
+      avec votre bâton pour activer.
+      donne immédiatement &e%amount% &3dégats,
+      plus 1 dégats par 20 tick de feu la cible a.
+    ready-activation-message: '&3*Vos mains brûlent avec puissance* Frappez une cible pour l activer
+       Inferno'
+    notready-activation-message: '&7*Le pouvoir se dissipe*'
+    activation-message: '&3&lVotre cible est explosée de puissance infernale'
   juggernaut:
-    name: Juggernaut
+    name: Paladin
     description: |-
-      &3The most durable warriors,
-      juggernauts are powerful behemoths
-      that can soak up a lot of damage.
+      &3Les guerriers les plus durables,
+      les mastodontes sont de puissants mastodontes
+      qui peut absorber beaucoup de dégâts.
 
-      &e&lStrength
-      &2Very strong against non-healing skills,
-      as you can out last your opponent.
+      &e&lForce
+      &2Très fort du aux résistances acquis,
+      vous pouvez faire durer vos combat et protéger vos alliées.
 
-      &e&lWeakness
-      &cVery low damage output.
-      Although you are durable, if you fail
-      to dish out enough damage to take out
-      your enemy before he takes you out,
-      you would be doomed.
-    heavystrikes-title: '&6Heavy Strikes'
-    stoneskin-title: '&6Stone Skin'
-    aegisprotection-title: '&6Aegis Protection'
-    throw-title: '&6Throw'
-    passivev2: '&3Reduce entity attacks by &e%amount%%'
+      &e&lFaiblesse
+      &cPeu de dégats.
+      Bien que vous soyez durable,si vous échouez
+      pour préparer suffisamment de dégats pour éliminer
+      votre ennemi vous succomberez
+    heavystrikes-title: '&6Coups lourds'
+    stoneskin-title: '&6Peau de pierre'
+    aegisprotection-title: '&6Protection d égide'
+    throw-title: '&6Jeter'
+    passivev2: '&3Réduisez les attaques d entités de &e%amount%%'
     heavystrikes: |-
-      &3If you are using an axe to attack,
-      deal &e%amount%% &3more damage to your target.
+      &3Si vous utilisez une hache pour attaquer,
+      vous donner &e%amount%% &3plus de dégats à votre cible.
     stoneskin: |-
-      &3Level 1&8: &eFall damage is reduced by &650%
-      &3Level 2&8: &eFire damage is reduced by &650%
-      &3Level 3&8: &eYour passive's effect
-      will work against projectiles.
+      &3Level 1&8: &eLes dégâts de chute sont réduits de &650%
+      &3Level 2&8: &eLes dégâts de feu sont réduits de &650%
+      &3Level 3&8: &eL'effet de votre passif
+      fonctionnera contre les projectiles.
     aegisprotection: |-
-      &3Every &e%amount%&3 seconds,
-      refresh a shield that negates all
-      damage for the next attack
+      &3Chaque &e%amount%&3 seconde,
+      rafraîchir un bouclier qui nie tout
+      dégâts pour la prochaine attaque
     throw: |-
-      &3Sneak and right click at
-      your target to activate.
-      Carry your target for 3 seconds,
-      making you and your target unable
-      to attack for the duration,
-      then toss your enemy in the
-      direction you're looking at.
-      Once your target hits the ground,
-      deal &e%amount% &3damage to your target.
-      While you are carrying your target,
-      all incoming damage is reduced by 50%
-    active-ready-message: '&3*You ready yourself* Hit a target to carry and throw
-      it'
-    active-notready-message: '&7*You lower your fists*'
-    active-activated-message: '&3&lYou grab your opponent above your head!'
-    active-throw-message-countdown: '&c&lAIM! Throwing opponent in your direction
-      in %countdown%'
-    active-throw-success: '&3&lThrew target at location!'
-    aegis-success: '&3Your aegis shield blocks the attack!'
+      &3Se faufiler et faire un clic droit sur
+      votre cible à activer.
+      Portez votre cible pendant 3 secondes,
+      vous rendant vous et votre cible incapables
+      attaquer pour la durée,
+      puis lancez votre ennemi dans le
+      direction que vous regardez.
+      Une fois que votre cible touche le sol,
+      donne &e%amount% &3dégats à votre cible.
+      Pendant que vous portez votre cible,
+      tous les dégâts entrants sont réduits de 50%
+    active-ready-message: '&3*Vous êtes prêt* Frappez votre cible pour porter et lancer
+      le'
+    active-notready-message: '&7*Vous abaissez vos bras*'
+    active-activated-message: '&3&lVous attrapez votre adversaire au-dessus de votre tête!'
+    active-throw-message-countdown: '&c&lAIM! Lancer votre adversaire dans une direction
+       dans %countdown%'
+    active-throw-success: '&3&lJete la cible à l'emplacement!'
+    aegis-success: '&3Votre bouclier égide bloque l'attaque!'
   arbalist:
     name: Archer
     description: |-
