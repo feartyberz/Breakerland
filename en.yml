@@ -22,17 +22,11 @@ actionbar:
 skill:
   swordsman:
     name: Epéiste
-    description: |-
-      &3Les épéiste sont les premier de toutes 
-      les batailles de mêlée,avec des dégâts 
-      supérieurs et des capacités à courtes distance
-
-      &e&lForce
-      &2Les épéiste sont forts en batailles individuelles,
-      et peut gagner la plupart des autres si il se defend bien.
-
-      &e&lFaiblesse
-      &cLes épéiste craingnent les attaques à distance.
+    description: "&3Les épéiste sont les premier de toutes \nles batailles de mêlé\
+      e,avec des dégâts \nsupérieurs et des capacités à courtes distance\n\n&e&lForce\n\
+      &2Les épéiste sont forts en batailles individuelles,\net peut gagner la plupart\
+      \ des autres si il se defend bien.\n\n&e&lFaiblesse\n&cLes épéiste craingnent\
+      \ les attaques à distance."
     dodge-title: '&6Esquive'
     parry-title: '&6Parer'
     pierce-title: '&6Transpercer'
@@ -61,8 +55,8 @@ skill:
       par coup à la prochaine cible que vous attaquerais,
       tout en les désorientant à chaque coup,
       pendant les deux prochaines secondes.
-    active-activation-message: '&3&lMille coupures activées ! Frappez votre cible autnt
-    de fois que vous le pouvez !'
+    active-activation-message: '&3&lMille coupures activées ! Frappez votre cible
+      autnt de fois que vous le pouvez !'
     active-finished-message: '&c&lMille coupures est terminé'
     ready-activation-message: '&3*Vous levez votre arme* Tapez votre cible pour activer
       Mille coupure'
@@ -106,28 +100,28 @@ skill:
       &3Level 3&8: &eLa première attaque que vous faites
       avant de devenir volontairement invisible
       inflige &6%amount% &eplus de dégat.
-    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
-    invis-enabled: '&1You fade into the darkness...'
-    neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
-    neutrality-enabled: '&1You are now neutral to mobs.'
+    invis-disabled: '&cVotre invisibilité est suspendu pendant 30 secondes!'
+    invis-enabled: '&1Vous disparaissez dans l obscurité...'
+    neutrality-disabled: '&cLes monstres ne sont plus neutre envers vous.'
+    neutrality-enabled: '&1Les monstres sont neutre envers vous.'
     evolvesadism: |-
-      &3Evolve the ability to have no conscience.
-      When attacking, you delight off your
-      target's suffering, giving a
-      &e%amount% &3chance of healing you
-      for 1 health per attack.
+      &3Faites évoluer votre capacité à ne pas avoir de conscience.
+      En attaquant,vous vous délectez de la
+      souffrance de votre cible, donne un
+      &e%amount% &3chance de vous guérir
+      pour 1 de santé par attaque.
     consume: |-
-      &3Right click to activate.
-      Bite your target, dealing &e%amount%
-      &3damage, along with 1 additional
-      damage per 5% missing health the target has.
-      If target dies, you are healed by
-      50% of your maximum health.
-    ready-activation-message: '&3*Your teeth glint with glee* Hit a target to activate
-      Consume'
-    notready-activation-message: '&7*You save your meal for another time*'
+      &3Clique droit pour activer.
+      Mordez votre cible, donne &e%amount%
+      &3dégâts, avec 1 supplémentaire
+      dégâts par 5% des points de vie manquants de la cible.
+      Si la cible meurt, vous êtes guéri par
+      50% de votre santé maximale.
+    ready-activation-message: '&3*Vos dents brille* Frappez une cible pour activer
+      Consummer'
+    notready-activation-message: '&7*Vous enregistrez votre repas pour une autre fois*'
     activation-message: '&3&l*CHOMP!*'
-    heal-message: '&3&lYou feast off your victim, regaining %amount% health'
+    heal-message: '&3&lVous vous régalez votre victime en regagnant %amount% santé'
   mage:
     name: Mage
     description: |-
