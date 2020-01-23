@@ -172,8 +172,8 @@ skill:
       de donner &650% &3moins de dégâts.
       Plus de niveaux vous en donne plus
       distance pour atteindre votre cible.
-    ready-activation-message: '&3*Votre bâton brille d une magie puissante!* Coup de houe dans
-       une direction pour tirer le flux d énergie'
+    ready-activation-message: '&3*Votre bâton brille d une magie puissante!* Coup
+      de houe dans        une direction pour tirer le flux d énergie'
     notready-activation-message: '&7*Votre bâton faiblit*'
     activation-message: '&3&l*WHOOSH!*'
   firemage:
@@ -219,8 +219,8 @@ skill:
       avec votre bâton pour activer.
       donne immédiatement &e%amount% &3dégats,
       plus 1 dégats par 20 tick de feu la cible a.
-    ready-activation-message: '&3*Vos mains brûlent avec puissance* Frappez une cible pour l activer
-       Inferno'
+    ready-activation-message: '&3*Vos mains brûlent avec puissance* Frappez une cible
+      pour l activer        Inferno'
     notready-activation-message: '&7*Le pouvoir se dissipe*'
     activation-message: '&3&lVotre cible est explosée de puissance infernale'
   juggernaut:
@@ -271,30 +271,21 @@ skill:
     active-ready-message: '&3*Vous êtes prêt* Frappez votre cible pour porter et lancer
       le'
     active-notready-message: '&7*Vous abaissez vos bras*'
-    active-activated-message: '&3&lVous attrapez votre adversaire au-dessus de votre tête!'
+    active-activated-message: '&3&lVous attrapez votre adversaire au-dessus de votre
+      tête!'
     active-throw-message-countdown: '&c&lAIM! Lancer votre adversaire dans une direction
-       dans %countdown%'
+             dans %countdown%'
     active-throw-success: '&3&lJete la cible à l emplacement!'
     aegis-success: '&3Votre bouclier égide bloque l attaque!'
   arbalist:
     name: Arbalétriers
-    description: |-
-      &3Arbalétriers sont adaptatifs,
-      avec différents styles de jeu,
-      bataille frontale, et tir de loin.
-      Les arbalétriers utilisent des arbalètes pour se battre.
-
-      &e&lForce
-      &2Les arbalétriers peuvent infliger beaucoup de dégâts,
-      si la cible ne parvient pas à atteindre l 
-      arbalétriers à temps, et ont également
-      beaucoup de capacités de renversement.
-
-      &e&lFaiblesse
-      &cLes arbalétriers sont faibles à
-      courte distance,
-      et ne compte que sur le recul pour
-      garder leurs ennemis à distance.
+    description: "&3Arbalétriers sont adaptatifs,\navec différents styles de jeu,\n\
+      bataille frontale, et tir de loin.\nLes arbalétriers utilisent des arbalètes\
+      \ pour se battre.\n\n&e&lForce\n&2Les arbalétriers peuvent infliger beaucoup\
+      \ de dégâts,\nsi la cible ne parvient pas à atteindre l \narbalétriers à temps,\
+      \ et ont également\nbeaucoup de capacités de renversement.\n\n&e&lFaiblesse\n\
+      &cLes arbalétriers sont faibles à\ncourte distance,\net ne compte que sur le\
+      \ recul pour\ngarder leurs ennemis à distance."
     execute-title: '&6Exécuter'
     dualarrow-title: '&6Double Flèches'
     minions-title: '&6Flèche charmante'
@@ -346,59 +337,59 @@ skill:
   vampire:
     name: Vampire
     description: |-
-      &3Vampires are majestic
-      yet horrible demons,
-      with the uncanny abilities
-      of regeneration and stealth.
+      &3Le Vampire est majestueux
+      et pourtant ce sont des horrible démons,
+      avec des capacités étranges
+      de régénération et de furtivité.
 
-      &e&lStrength
-      &2Attacks can deplete your opponent of Mana,
-      and you also have many healing
-      abilities of your own.
+      &e&lForce
+      &2Les attaques peuvent épuiser votre adversaire de Mana,
+      et vous avez aussi beaucoup de soins
+      ainsi que des capacités propre.
 
-      &e&lWeakness
-      &cVampires are all rounded,
-      but can be outpaced by
-      targets with high mobility.
-    bloodlust-title: '&6Blood Lust'
-    bloodwell-title: '&6Blood Well'
-    bleed-title: '&6Bleed'
-    eternaldarkness-title: '&6Eternal Darkness'
+      &e&lFaiblesse
+      &cLes vampires sont puissant,
+      mais peut être dépassé par
+      des énemie à mobilité élevée.
+    bloodlust-title: '&6Soif de sang'
+    bloodwell-title: '&6Puits de sang'
+    bleed-title: '&6Saigner'
+    eternaldarkness-title: '&6Obscurité éternelle'
     passive: |-
-      &3Attacking gives you 3
-      blood per hit. For every
-      2 blood you have, deal an additional
-      &e%amount%% &3melee damage to your targets.
-      Blood levels drop by &e(1+10%)
-      &3every 4 seconds.
-    bloodlust: "&3Level 1: If you have more than 70% of\nyour blood well full, go\
-      \ into a frenzy,\nallowing you to deal\n&e%amount%% &3more damage than usual\n\
-      \nLevel 2: Your natural health regeneration is\ntripled during this time. \n\
-      Level 3: Attacks during this duration\nhave a chance (based on your\ncurrent\
-      \ blood) to heal you by 2"
+      &3Attaquer vous donne 3
+      sang par coup. pour chaque
+      2 sang vous avez, donne un supplément
+      &e%amount%% &3dégâts de mêlée à vos cibles.
+      Le niveau sanguin baisse &e(1+10%)
+      &3toutes les 4 secondes.
+    bloodlust: "&3Level 1: Si vous avez plus de 70% de\nde votre sang , vous entrer\
+      \ dans une frénésie,\nvous permettant de donner\n&e%amount%% &3plus de dégâts que d'habitude\n\
+      \nLevel 2: Votre régénération de santé naturelle est\ntriplé pendant cette période. \n\
+      Level 3: Attaques pendant cette durée\nvous avez une chance (en fonction de votre\nsang\
+      \ actuel) de vous guérir par 2"
     bloodwell: |-
-      &3Increases your maximum blood levels by a large
-      amount every upgrade. Has a &e%amount%% &3chance
-      to stop the loss of blood every 4 seconds.
+      &3Augmente vos niveaux sanguins maximaux par un grand
+      montant chaque niveau supplémentaire. à &e%amount%% &3chance
+      de stopper la perte de sang toutes les 4 secondes.
     bleed: |-
-      &3Your targets bleed for &e%amount%
-      &3seconds, dealing 1 &3damage to them per 1 second.
-      Also, for each target that is bleeding,
-      have a chance to gain 1 blood each
-      time they bleed based on the
-      amount of blood you have.
+      &3Vos cibles saignent &e%amount%
+      &3secondes, donner 1 &3dégât à eux toute les secondes.
+      De plus, pour chaque cible qui saigne,
+      vous avez une chance de regagner 1 sang
+      chaque fois qu'ils saignent en fonction de la
+      quantité de sang que vous avez
     eternaldarkness: |-
-      &3Sneak and hit a target to become
-      invincible for &e%amount% &3seconds.
-      During this time, you blind the targets
-      you attack for 1 second per hit.
-    active-activation-message: '&3&lEternal Darkness activated! You are now immune
-      to damage!'
-    active-finished-message: '&c&lEternal Darkness has worn off. You are now vulnerable
-      to damage.'
-    ready-activation-message: '&3*Your fangs glint* Hit a target to activate Eternal
-      Darkness'
-    notready-activation-message: '&7*The victim isn''t worth such effort*'
+      &3Accroupissez vous et toucher une cible
+      invincible pour &e%amount% &3secondes.
+      Pendant ce temps, vous aveuglez les cibles
+      que vous attaquez 1 seconde par coup.
+    active-activation-message: '&3&lObscurité éternelle est activater! vous êtes immuniser
+      aux dégâts!'
+    active-finished-message: '&c&lObscurité éternelle est terminer. vous êtes à present
+      vulnerable aux dégâts.'
+    ready-activation-message: '&3*Vos crocs brillent* Tapez pour activer Obscurité
+      éternelle'
+    notready-activation-message: '&7*Votre victime ne vaut pas un tel effort*'
   eidolon:
     name: Eidolon
     description: |-
@@ -742,11 +733,11 @@ guis:
   disable:
     ability: |2-
 
-      &cRight-click to disable ability.
+      &cClic droit pour désactiver la capacité.
   enable:
     ability: |2-
 
-      &2Right-click to enable ability.
+      &2Clic droit pour activer la capacité.
   masteries:
     description: |-
       %type%
@@ -755,7 +746,7 @@ guis:
       &3Cost&8: &e%cost%
 
       %description%
-skill-selected: '&3You are now a &e%skills_skill%'
+skill-selected: '&3Vous êtes maintenant &e%skills_skill%'
 ability:
   not-found: '&e%ability% &3ability not found.'
 invalid:
