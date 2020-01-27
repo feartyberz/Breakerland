@@ -22,17 +22,11 @@ actionbar:
 skill:
   swordsman:
     name: Epéiste
-    description: |-
-      &3Les épéiste sont les premier de toutes 
-      les batailles de mêlée,avec des dégâts 
-      supérieurs et des capacités à courtes distance
-
-      &e&lForce
-      &2Les épéiste sont forts en batailles individuelles,
-      et peut gagner la plupart des autres si il se defend bien.
-
-      &e&lFaiblesse
-      &cLes épéiste craingnent les attaques à distance.
+    description: "&3Les épéiste sont les premier de toutes \nles batailles de mêlé\
+      e,avec des dégâts \nsupérieurs et des capacités à courtes distance\n\n&e&lForce\n\
+      &2Les épéiste sont forts en batailles individuelles,\net peut gagner la plupart\
+      \ des autres si il se defend bien.\n\n&e&lFaiblesse\n&cLes épéiste craingnent\
+      \ les attaques à distance."
     dodge-title: '&6Esquive'
     parry-title: '&6Parer'
     pierce-title: '&6Transpercer'
@@ -61,8 +55,8 @@ skill:
       par coup à la prochaine cible que vous attaquerais,
       tout en les désorientant à chaque coup,
       pendant les deux prochaines secondes.
-    active-activation-message: '&3&lMille coupures activées ! Frappez votre cible autnt
-    de fois que vous le pouvez !'
+    active-activation-message: '&3&lMille coupures activées ! Frappez votre cible
+      autnt de fois que vous le pouvez !'
     active-finished-message: '&c&lMille coupures est terminé'
     ready-activation-message: '&3*Vous levez votre arme* Tapez votre cible pour activer
       Mille coupure'
@@ -79,448 +73,442 @@ skill:
       et une frappe tout aussi corrosive.
 
       &e&lFaiblesse
-      &cDevourers have weak defensive capability.
-    evolvegliders-title: '&6Evolve Gliders'
-    evolvecloak-title: '&6Evolve Cloak'
-    evolvesadism-title: '&6Evolve Sadism'
-    consume-title: '&6Consume'
+      &cLes dévoreurs ont une faible capacité défensive.
+    evolvegliders-title: '&6Evoluer Planeur'
+    evolvecloak-title: '&6Evoluer Cape'
+    evolvesadism-title: '&6Evoluer Sadisme'
+    consume-title: '&6Consummer'
     passive: |-
-      &3Your attacks inflict corrosion
-      to your enemy, causing them
-      to lose &e%amount% &3health
-      per second for 5 seconds.
+      &3Votre attaque inflige de la corrosion
+      à votre enemie, leur
+      faisant perdre &e%amount% &3santé
+      par seconde pendant 5 seconde.
     evolvegliders: |-
-      &3When sprinting,
-      gain &e%amount% &3speed.
+      &3Au sprint,
+      gagner &e%amount% &3vitesse.
     evolvecloak: |-
-      &3Level 1&8: &eGain invisibility permanently.
-      When you attack, the invisibility
-      is disabled for 30 seconds.
-      &3Level 2: &eHostile mobs will naturally
-      be neutral to you.
-      If you attack a mob, neutrality is
-      disabled for 30 seconds.
-      Some mobs like Enderman, endermite,
-      wither, guardians and the ender dragon
-      will be still able to see you.
-      &3Level 3&8: &eThe first attack you make
-      before becoming invisible will
-      deal &6%amount% &emore damage.
-    invis-disabled: '&cYour invisibility is disabled for 30 seconds!'
-    invis-enabled: '&1You fade into the darkness...'
-    neutrality-disabled: '&cYour neutrality is disabled for 30 seconds!'
-    neutrality-enabled: '&1You are now neutral to mobs.'
+      &3Level 1&8: &eGagnez l'invisibilité en permanence.
+      Lorsque vous attaquez, l'invisibilité
+      est désactivé pendant 30 secondes.
+      &3Level 2: &eLes monstre hostile
+      sont neutre envers vous.
+      Si vous attaquez un monstre l'invisibilité
+      est suspendu pendant 30 secondes.
+      Certains monstres comme Enderman, endermite,
+      wither, guardians et le ender dragon
+      ne sont pas affecter par votre cape.
+      &3Level 3&8: &eLa première attaque que vous faites
+      avant de devenir volontairement invisible
+      inflige &6%amount% &eplus de dégat.
+    invis-disabled: '&cVotre invisibilité est suspendu pendant 30 secondes!'
+    invis-enabled: '&1Vous disparaissez dans l obscurité...'
+    neutrality-disabled: '&cLes monstres ne sont plus neutre envers vous.'
+    neutrality-enabled: '&1Les monstres sont neutre envers vous.'
     evolvesadism: |-
-      &3Evolve the ability to have no conscience.
-      When attacking, you delight off your
-      target's suffering, giving a
-      &e%amount% &3chance of healing you
-      for 1 health per attack.
+      &3Faites évoluer votre capacité à ne pas avoir de conscience.
+      En attaquant,vous vous délectez de la
+      souffrance de votre cible, donne un
+      &e%amount% &3chance de vous guérir
+      pour 1 de santé par attaque.
     consume: |-
-      &3Right click to activate.
-      Bite your target, dealing &e%amount%
-      &3damage, along with 1 additional
-      damage per 5% missing health the target has.
-      If target dies, you are healed by
-      50% of your maximum health.
-    ready-activation-message: '&3*Your teeth glint with glee* Hit a target to activate
-      Consume'
-    notready-activation-message: '&7*You save your meal for another time*'
+      &3Clique droit pour activer.
+      Mordez votre cible, donne &e%amount%
+      &3dégâts, avec 1 supplémentaire
+      dégâts par 5% des points de vie manquants de la cible.
+      Si la cible meurt, vous êtes guéri par
+      50% de votre santé maximale.
+    ready-activation-message: '&3*Vos dents brille* Frappez une cible pour activer
+      Consummer'
+    notready-activation-message: '&7*Vous enregistrez votre repas pour une autre fois*'
     activation-message: '&3&l*CHOMP!*'
-    heal-message: '&3&lYou feast off your victim, regaining %amount% health'
+    heal-message: '&3&lVous vous régalez votre victime en regagnant %amount% santé'
   mage:
     name: Mage
     description: |-
-      &3Mages are masters of offensive
-      and defensive magic,
-      and battle with Staffs to cast
-      spells and curses on their enemies.
+      &3Les mages sont maîtres de l offensive
+      et défense magique,
+      et se battre avec des bâtons pour lancer des
+      sorts et malédictions sur leurs ennemis.
 
-      &e&lStrength
-      &2Mages can counter many skill
-      types as their attacks with
-      Staffs can cause different
-      attacks to occur.
+      &e&lForce
+      &2Les mages peuvent contrer de nombreuse types de
+      compétences que leurs attaques avec un
+      bâton peut provoquer différentes
+      attaques.
 
-      &e&lWeakness
-      &cMages rely on Mana,
-      and are severely weakened without it.
-    reflect-title: '&6Reflect'
-    explosionspell-title: '&6Explosion Spell'
-    healspell-title: '&6Heal Spell'
-    energyflux-title: '&6Energy Flux'
+      &e&lFaiblesse
+      &cLes mages comptent sur leurs mana,
+      et sont gravement affaiblis sans cela.
+    reflect-title: '&6Reflet'
+    explosionspell-title: '&6Explosion de sorts'
+    healspell-title: '&6Sort de soin'
+    energyflux-title: '&6Flux énergique'
     passivev2: |-
-      &3When attacking with staffs (hoe),
-      you gain back &e%amount% &3mana per hit.
-      Attacking with hoes will deal more damage,
-      ranging from 3 for a wooden hoe,
-      to 10 for a diamond hoe.
+      &3Lorsque vous attaquez avec des bâtons (hoe),
+      vous regagnez &e%amount% &3mana par coup.
+      Attaquer avec des houes fera plus de dégâts,
+      allant de 3 pour une houe en bois,
+      à 10 pour une houe diamant.
     reflect: |-
-      &3When you are attacked, and you're holding
-      a staff, have a chance
-      (based on your staff material)
-      to deal &e%amount% &3to the attacker.
+      &3Lorsque vous êtes attaqué et que vous tenez
+      un bâton, vous avez une chance
+      (sur la base de votre matériel personnel)
+      a donner &e%amount% &3à l'attaquant.
     explosionspell: |-
-      &3When you are attacking, and you're holding a
-      staff, have a chance
-      (based on your staff material)
-      to deal &e%amount%% &3more damage to your enemy.
+      &3Lorsque vous attaquez et que vous tenez un
+      baton, vous avez une chance
+      (sur la base de votre matériel personnel)
+      de donner &e%amount%% &3plus de dégats à votre énemie.
     healspell: |-
-      &3For every 10 mana you have,
-      regenerate &e%amount%&3 additional health,
-      if your health is over 20.
+      &3Pour 10 manas que vous avez,
+      régénérer &e%amount%&3 santé supplémentaire,
+      si votre santé est supérieure à 20.
     energyfluxv2: |-
-      &3When right-clicking with a hoe,
-      rapidly fire energy bolts that
-      deal &e%amount% &3damage in a line.
-      Repeated hits on the same target
-      within &6%cooldown%s &3will
-      deal &650% &3less damage.
-      More levels gives you more
-      distance to hit your target.
-    ready-activation-message: '&3*Your staff glows with powerful magic!* Punch in
-      a direction to fire Energy Flux'
-    notready-activation-message: '&7*Your staff dims*'
+      &3Lors d'un clic droit avec une houe,
+      tirer rapidement des boulons d'énergie
+      et donner &e%amount% &3dégâts en ligne.
+      coups répétés sur la même cible
+      dans &6%cooldown%s &3volonté
+      de donner &650% &3moins de dégâts.
+      Plus de niveaux vous en donne plus
+      distance pour atteindre votre cible.
+    ready-activation-message: '&3*Votre bâton brille d une magie puissante!* Coup
+      de houe dans        une direction pour tirer le flux d énergie'
+    notready-activation-message: '&7*Votre bâton faiblit*'
     activation-message: '&3&l*WHOOSH!*'
   firemage:
     name: Mage du feu
     description: |-
-      &3FireMages, unlike Mages,
-      are fully focused on
-      fire-based offensive spells,
-      and don't use staffs.
-      They cast spells by
-      expending their own health.
+      &3Mages de feu, contrairement aux mages,
+      sont entièrement concentrés sur
+      sorts offensifs basés sur le feu,
+      et n'utilisez pas de baton.
+      Ils lancent des sorts par
+      dépenser leur propre santé.
 
-      &e&lStrength
-      &2While health is spent on spells,
-      the spells can deliver devastating
-      blows to your foes.
+      &e&lForce
+      &2Alors que la santé est dépensée en sorts,
+      les sorts peuvent être dévastateurs
+      souffle vos ennemis.
 
-      &e&lWeakness
-      &cFireMages are weak against
-      fire-resistance potions.
-    absorbenergy-title: '&6Absorb Energy'
+      &e&lFaiblesse
+      &cLes mages de feu sont faibles contre
+      potions résistantes au feu.
+    absorbenergy-title: '&6Absorber l énergie'
     phoenixessence-title: '&6Phoenix Essence'
-    blackfire-title: '&6Black Fire'
+    blackfire-title: '&6Feu noir'
     inferno-title: '&6Inferno'
     passivev2: |-
-      &3When on fire, regain &e%amount% &3extra
-      health when healing.
-      You are also immune to fire damage.
+      &3En feu, regagnez &e%amount% &3supplémentaire
+      la santé lors de la guérison.
+      Vous êtes également immunisé contre les dégâts de feu.
     absorbenergy: |-
-      &3When attacked, your next attack will
-      set your targets on fire
-      for up to &e%amount% &3seconds.
+      &3En cas d'attaque, votre prochaine attaque
+      mettez le feu à vos cibles
+      jusqu'à &e%amount% &3 secondes.
     phoenixessence: |-
-      &3Deal &e%amount%% &3more damage
-      for every &61 second
-      &3your target is on fire for.
+      &3Donne &e%amount%% &3plus de dégats
+      pour chaque &61 seconde
+      &3votre cible est en feu depuis.
     blackfire: |-
-      &3When targets in a radius
-      of &65 blocks &3to you,
-      increase their fire damage by &e%amount%
+      &3Lorsque les cibles est dans un rayon
+      de &65 blocks &3de vous,
+      augmenter leurs dégâts de feu par &e%amount%
     inferno: |-
-      &3Right click, and hit a target
-      with your staff to activate.
-      Immediately deal &e%amount% &3damage,
-      plus 1 damage per 20 fireticks the target has
-    ready-activation-message: '&3*Your hands burns with power* Hit a target to activate
-      Inferno'
-    notready-activation-message: '&7*The power dissipates*'
-    activation-message: '&3&lYour target is blasted with infernal power!'
+      &3Faites un clic droit et frappez une cible
+      avec votre bâton pour activer.
+      donne immédiatement &e%amount% &3dégats,
+      plus 1 dégats par 20 tick de feu la cible a.
+    ready-activation-message: '&3*Vos mains brûlent avec puissance* Frappez une cible
+      pour l activer        Inferno'
+    notready-activation-message: '&7*Le pouvoir se dissipe*'
+    activation-message: '&3&lVotre cible est explosée de puissance infernale'
   juggernaut:
-    name: Juggernaut
+    name: Paladin
     description: |-
-      &3The most durable warriors,
-      juggernauts are powerful behemoths
-      that can soak up a lot of damage.
+      &3Les guerriers les plus durables,
+      les mastodontes sont de puissants mastodontes
+      qui peut absorber beaucoup de dégâts.
 
-      &e&lStrength
-      &2Very strong against non-healing skills,
-      as you can out last your opponent.
+      &e&lForce
+      &2Très fort du aux résistances acquis,
+      vous pouvez faire durer vos combat et protéger vos alliées.
 
-      &e&lWeakness
-      &cVery low damage output.
-      Although you are durable, if you fail
-      to dish out enough damage to take out
-      your enemy before he takes you out,
-      you would be doomed.
-    heavystrikes-title: '&6Heavy Strikes'
-    stoneskin-title: '&6Stone Skin'
-    aegisprotection-title: '&6Aegis Protection'
-    throw-title: '&6Throw'
-    passivev2: '&3Reduce entity attacks by &e%amount%%'
+      &e&lFaiblesse
+      &cPeu de dégats.
+      Bien que vous soyez durable,si vous échouez
+      pour préparer suffisamment de dégats pour éliminer
+      votre ennemi vous succomberez
+    heavystrikes-title: '&6Coups lourds'
+    stoneskin-title: '&6Peau de pierre'
+    aegisprotection-title: '&6Protection d égide'
+    throw-title: '&6Jeter'
+    passivev2: '&3Réduisez les attaques d entités de &e%amount%%'
     heavystrikes: |-
-      &3If you are using an axe to attack,
-      deal &e%amount%% &3more damage to your target.
+      &3Si vous utilisez une hache pour attaquer,
+      vous donner &e%amount%% &3plus de dégats à votre cible.
     stoneskin: |-
-      &3Level 1&8: &eFall damage is reduced by &650%
-      &3Level 2&8: &eFire damage is reduced by &650%
-      &3Level 3&8: &eYour passive's effect
-      will work against projectiles.
+      &3Level 1&8: &eLes dégâts de chute sont réduits de &650%
+      &3Level 2&8: &eLes dégâts de feu sont réduits de &650%
+      &3Level 3&8: &eL'effet de votre passif
+      fonctionnera contre les projectiles.
     aegisprotection: |-
-      &3Every &e%amount%&3 seconds,
-      refresh a shield that negates all
-      damage for the next attack
+      &3Chaque &e%amount%&3 seconde,
+      rafraîchir un bouclier qui nie tout
+      dégâts pour la prochaine attaque
     throw: |-
-      &3Sneak and right click at
-      your target to activate.
-      Carry your target for 3 seconds,
-      making you and your target unable
-      to attack for the duration,
-      then toss your enemy in the
-      direction you're looking at.
-      Once your target hits the ground,
-      deal &e%amount% &3damage to your target.
-      While you are carrying your target,
-      all incoming damage is reduced by 50%
-    active-ready-message: '&3*You ready yourself* Hit a target to carry and throw
-      it'
-    active-notready-message: '&7*You lower your fists*'
-    active-activated-message: '&3&lYou grab your opponent above your head!'
-    active-throw-message-countdown: '&c&lAIM! Throwing opponent in your direction
-      in %countdown%'
-    active-throw-success: '&3&lThrew target at location!'
-    aegis-success: '&3Your aegis shield blocks the attack!'
+      &3Se faufiler et faire un clic droit sur
+      votre cible à activer.
+      Portez votre cible pendant 3 secondes,
+      vous rendant vous et votre cible incapables
+      attaquer pour la durée,
+      puis lancez votre ennemi dans le
+      direction que vous regardez.
+      Une fois que votre cible touche le sol,
+      donne &e%amount% &3dégats à votre cible.
+      Pendant que vous portez votre cible,
+      tous les dégâts entrants sont réduits de 50%
+    active-ready-message: '&3*Vous êtes prêt* Frappez votre cible pour porter et lancer
+      le'
+    active-notready-message: '&7*Vous abaissez vos bras*'
+    active-activated-message: '&3&lVous attrapez votre adversaire au-dessus de votre
+      tête!'
+    active-throw-message-countdown: '&c&lAIM! Lancer votre adversaire dans une direction
+             dans %countdown%'
+    active-throw-success: '&3&lJete la cible à l emplacement!'
+    aegis-success: '&3Votre bouclier égide bloque l attaque!'
   arbalist:
-    name: Archer
-    description: |-
-      &3Arbalists are adaptive,
-      with different playstyles,
-      up front battle, and sniping from afar.
-      Arbalists utilize Crossbows to fight.
-
-      &e&lStrength
-      &2Arbalists can deal a lot of damage,
-      if the target fails to reach the
-      arbalist in time, and also have
-      a lot of knockback capabilities.
-
-      &e&lWeakness
-      &cArbalists are weak in
-      short range combat,
-      and only rely on knockback to
-      keep their enemies at bay.
-    execute-title: '&6Execute'
-    dualarrow-title: '&6Dual Arrow'
-    minions-title: '&6Minions Arrow'
-    firecrossbow-title: '&6Fire Crossbow'
+    name: Arbalétriers
+    description: "&3Arbalétriers sont adaptatifs,\navec différents styles de jeu,\n\
+      bataille frontale, et tir de loin.\nLes arbalétriers utilisent des arbalètes\
+      \ pour se battre.\n\n&e&lForce\n&2Les arbalétriers peuvent infliger beaucoup\
+      \ de dégâts,\nsi la cible ne parvient pas à atteindre l \narbalétriers à temps,\
+      \ et ont également\nbeaucoup de capacités de renversement.\n\n&e&lFaiblesse\n\
+      &cLes arbalétriers sont faibles à\ncourte distance,\net ne compte que sur le\
+      \ recul pour\ngarder leurs ennemis à distance."
+    execute-title: '&6Exécuter'
+    dualarrow-title: '&6Double Flèches'
+    minions-title: '&6Flèche charmante'
+    firecrossbow-title: '&6Arbalète de feu'
     passive: |-
-      &3The longer the distance
-      between you and your target,
-      the higher the damage.
+      &3Plus la distance est longue
+      entre vous et votre cible,
+      plus les dégâts sont importants.
     execute: |-
-      &3After shooting a single target
-      2 times in a row, have a chance to
-      perform one of these combos.
+      &3Après avoir tiré une seule cible
+      2 fois de suite, avoir la chance de
+      effectuez l un de ces combos.
 
-      &eLevel 1&8: &3Have a chance to set
-      your target on fire for 5 seconds.
-      &eLevel 2&8: &3Have a chance to poison
-      your target.
-      &eLevel 3&8: &3Have a chance to strike
-      a lightning on your target.
+      &eLevel 1&8: &3Avoir la chance de mettre le feu
+      à votre cible pendant 5 secondes.
+      &eLevel 2&8: &3Avoir une chance d empoisonner
+      votre cible.
+      &eLevel 3&8: &3Avoir une chance de frapper
+      de lumière votre cible.
 
-      Chances will increase the more
-      you shoot the target.
-      Your combo will reset if you miss
-      or hit another target.
+      Les chances augmenteront plus
+      vous tirez sur la cible.
+      Votre combo sera réinitialisé si vous manquez
+      ou a frappé une autre cible.
     dualarrow: |-
-      &3Level 1&8: &eYour crossbow and
-      bow can fire two arrows at once.
-      The second arrow deals 50% damage.
-      &3Level 2&8: &eThe second arrow does 100% damage.
-      &3Level 3&8: &eThe second arrow does 100% damage,
-      along with &6%amount%% &ebonus damage.
+      &3Level 1&8: &eVotre arbalète et
+      l arc peut tirer deux flèches à la fois.
+      La deuxième flèche inflige 50% de dégâts.
+      &3Level 2&8: &eLa deuxième flèche inflige 100% de dégâts.
+      &3Level 3&8: &eLa deuxième flèche fait 100% de dégâts,
+      de même que &6%amount%% &een Bonus dégats.
     minions-description: |-
-      &3Right-click and shoot to
-      spawn minion skeletons that will
-      fight for you.
+      &3Faites un clic droit et tirez sur
+      une cible crée des sbires ils combattrons pour vous
+      une fois votre cible morte il partent également.
 
-      &eLevel 1&8: &3One skeleton
-      &eLevel 2&8: &3Two skeletons with invisibility
-      effect and better bows.
-      &eLevel 3&8: &33 Pillagers with invisibility
-      and flame arrows.
-    minions-msg: '&cYou spawned your minions.'
+      &eLevel 1&8: &3Un sbire
+      &eLevel 2&8: &3Deux sbire invisible
+      effet et meilleurs arcs.
+      &eLevel 3&8: &33 Pillagers sbire invisible
+      avec flèche de feu.
+    minions-msg: '&cVous créer vos sbires.'
     firecrossbow: |-
-      &3Fire an arrow at your enemy
-      by punching. Does not use arrows,
-      and instead uses energy.
-      Upgrade to reduce cooldown
-    activation-msg: '&3Arrow launched!'
+      &3Tire une flèche sur ton ennemi
+      par poinçonnage. N utilise pas de flèches,
+      et utilise plutôt l énergie.
+      évoluer pour réduire le temps de recharge.
+    activation-msg: '&3Flèche lancée!'
   vampire:
     name: Vampire
     description: |-
-      &3Vampires are majestic
-      yet horrible demons,
-      with the uncanny abilities
-      of regeneration and stealth.
+      &3Le Vampire est majestueux
+      et pourtant ce sont des horrible démons,
+      avec des capacités étranges
+      de régénération et de furtivité.
 
-      &e&lStrength
-      &2Attacks can deplete your opponent of Mana,
-      and you also have many healing
-      abilities of your own.
+      &e&lForce
+      &2Les attaques peuvent épuiser votre adversaire de Mana,
+      et vous avez aussi beaucoup de soins
+      ainsi que des capacités propre.
 
-      &e&lWeakness
-      &cVampires are all rounded,
-      but can be outpaced by
-      targets with high mobility.
-    bloodlust-title: '&6Blood Lust'
-    bloodwell-title: '&6Blood Well'
-    bleed-title: '&6Bleed'
-    eternaldarkness-title: '&6Eternal Darkness'
+      &e&lFaiblesse
+      &cLes vampires sont puissant,
+      mais peut être dépassé par
+      des énemie à mobilité élevée.
+    bloodlust-title: '&6Soif de sang'
+    bloodwell-title: '&6Puits de sang'
+    bleed-title: '&6Saigner'
+    eternaldarkness-title: '&6Obscurité éternelle'
     passive: |-
-      &3Attacking gives you 3
-      blood per hit. For every
-      2 blood you have, deal an additional
-      &e%amount%% &3melee damage to your targets.
-      Blood levels drop by &e(1+10%)
-      &3every 4 seconds.
-    bloodlust: "&3Level 1: If you have more than 70% of\nyour blood well full, go\
-      \ into a frenzy,\nallowing you to deal\n&e%amount%% &3more damage than usual\n\
-      \nLevel 2: Your natural health regeneration is\ntripled during this time. \n\
-      Level 3: Attacks during this duration\nhave a chance (based on your\ncurrent\
-      \ blood) to heal you by 2"
+      &3Attaquer vous donne 3
+      sang par coup. pour chaque
+      2 sang vous avez, donne un supplément
+      &e%amount%% &3dégâts de mêlée à vos cibles.
+      Le niveau sanguin baisse &e(1+10%)
+      &3toutes les 4 secondes.
+    bloodlust: "&3Level 1: Si vous avez plus de 70% de\nde votre sang , vous entrer\
+      \ dans une frénésie,\nvous permettant de donner\n&e%amount%% &3plus de dégâ\
+      ts que d'habitude\n\nLevel 2: Votre régénération de santé naturelle est\ntriplé\
+      \ pendant cette période. \nLevel 3: Attaques pendant cette durée\nvous avez\
+      \ une chance (en fonction de votre\nsang actuel) de vous guérir par 2"
     bloodwell: |-
-      &3Increases your maximum blood levels by a large
-      amount every upgrade. Has a &e%amount%% &3chance
-      to stop the loss of blood every 4 seconds.
+      &3Augmente vos niveaux sanguins maximaux par un grand
+      montant chaque niveau supplémentaire. à &e%amount%% &3chance
+      de stopper la perte de sang toutes les 4 secondes.
     bleed: |-
-      &3Your targets bleed for &e%amount%
-      &3seconds, dealing 1 &3damage to them per 1 second.
-      Also, for each target that is bleeding,
-      have a chance to gain 1 blood each
-      time they bleed based on the
-      amount of blood you have.
+      &3Vos cibles saignent &e%amount%
+      &3secondes, donner 1 &3dégât à eux toute les secondes.
+      De plus, pour chaque cible qui saigne,
+      vous avez une chance de regagner 1 sang
+      chaque fois qu'ils saignent en fonction de la
+      quantité de sang que vous avez
     eternaldarkness: |-
-      &3Sneak and hit a target to become
-      invincible for &e%amount% &3seconds.
-      During this time, you blind the targets
-      you attack for 1 second per hit.
-    active-activation-message: '&3&lEternal Darkness activated! You are now immune
-      to damage!'
-    active-finished-message: '&c&lEternal Darkness has worn off. You are now vulnerable
-      to damage.'
-    ready-activation-message: '&3*Your fangs glint* Hit a target to activate Eternal
-      Darkness'
-    notready-activation-message: '&7*The victim isn''t worth such effort*'
+      &3Accroupissez vous et toucher une cible
+      invincible pour &e%amount% &3secondes.
+      Pendant ce temps, vous aveuglez les cibles
+      que vous attaquez 1 seconde par coup.
+    active-activation-message: '&3&lObscurité éternelle est activater! vous êtes immuniser
+      aux dégâts!'
+    active-finished-message: '&c&lObscurité éternelle est terminer. vous êtes à present
+      vulnerable aux dégâts.'
+    ready-activation-message: '&3*Vos crocs brillent* Tapez pour activer Obscurité
+      éternelle'
+    notready-activation-message: '&7*Votre victime ne vaut pas un tel effort*'
   eidolon:
     name: Eidolon
     description: |-
-      &3Eidolons are spirits, that periodically
-      change form, switching
-      between Dark and Light.
+      &3Les eidonlons sont des esprits,qui perdiodiquement
+      change de forme,
+      entre Ombre et Lumière.
 
-      &e&lStrength
-      &2Eidolon has both defensive and offensive
-      abilities, and if used wisely,
-      can be a very effective melee fighter.
+      &e&lForce
+      &2Eidolon est à la fois défensif et offensifs
+      efficace si c'est utilisé à bon escient,
+      pour être un combattant de mêlée très efficace.
 
-      &e&lWeakness
-      &cOffensive abilites are mostly in
-      Eidolon's Dark form, and vice versa.
-      Complex to master.
-    purify-title: '&6Purify'
-    spiritfire-title: '&6Spirit Fire'
+      &e&lFaiblesse
+      &cLes capacités offensives sont principalement
+      Forme sombre d Eidolon, et vice versa
+      Complexe à maîtriser.
+    purify-title: '&6Purifier'
+    spiritfire-title: '&6Spirituel du feu'
     spectre-title: '&6Spectre'
-    shapeshifter-title: '&6Shape Shifter'
-    defile-title: '&6Defile'
+    shapeshifter-title: '&6Changer de forme'
+    defile-title: '&6Défilé'
     passive: |-
-      &3Eidolon has a light and dark form.
-      When your Imbalance hits &6100&3,
-      you change to another form.
-      Imbalance is gained over time.
-      Upon changing, restore &e%amount% &3health.
+      &3Eidolon a une forme Lumière et Ombre.
+      quand votre déséquilibre frappe &6100&3,
+      vous changez de forme.
+      Le déséquilibre se gagne avec le temps.
+      En changeant, restaurer &e%amount% &3votre santé.
     purify: |-
-      &3Deal &e%amount% &3damage for
-      every 5 health your target has,
-      up to a maximum of &e%max%&3.
-      &6%amount% &3imbalance is gained when you attack.
-    spiritfire: "&3In Light form, absorb &e%amount%%\n&3damage when hit, up to a maximum\
-      \ of &650%.\n&3This amount is stored. \n&3In Dark form, expell the stored\n\
-      amount in the first attack to deal\n1 damage per &e%dark% &3damage absorbed"
-    spectre: "&3In Light form, gain a shield, that will\ngive speed &c%speed%&3 for\
-      \ 3 seconds\nwhen broken by another mob.\nShield refreshes every &e%amount%\
-      \ &3seconds. \nIn Dark form, your attack will\nbe charged every &e%amount% &3seconds.\n\
-      Charged attacks deal &6%dark%%\n&3additional damage."
+      &3Donne &e%amount% &3dégats pour
+      tous les 5 points de vie de votre cible,
+      jusqu à un maximum de &e%max%&3.
+      &6%amount% &3un déséquilibre est obtenu lorsque vous attaquez.
+    spiritfire: "&3sous forme de lumière, vous absorber &e%amount%%\n&3dégats en cas\
+      \ de coup, jusqu à un maximum de &650%.\n&3Ce montant est stocké. \n&3En forme\
+      \ d ombre, expulser ce qui est stocké\nlors de la première attaque\n1 dégats\
+      \ par &e%dark% &3dégats absorber"
+    spectre: "&3Sous forme de lumière, vous gagnez un Bouclier, qui \ndonnera de la\
+      \ vitesse &c%speed%&3 pour 3 secondes\nlorsque qu il est brisé par un autre\
+      \ monstre.\nLe bouclier rafraîchit chaque &e%amount% &3secondes. \nEn forme\
+      \ Ombre, votre attaque\nes charger chaque &e%amount% &3secondes.\nLes attaques\
+      \ chargées donne &6%dark%%\n&3dommages supplémentaire."
     shapeshifter: |-
-      &3When in dark, you'll deal more
-      damage to the enemy.
-      The darker the more damage you deal.
-      When you're in light places,
-      you'll take less damage.
-      The brighter the fewer damage you'll take.
+      &3Dans l ombre,vous ferait
+      plus de dommages à votre énnemi.
+      Le plus sombre,plus vous infligez des dégâts.
+      Lorsque vous êtes dans des endroits clairs,
+      vous prendrez moins de dégats.
+      Le plus brillant,moins vous subirez de dégats.
     defile: |-
-      &3Right click and attack to tip
-      the balance in your target,
-      increasing its damage taken,
-      and reducing its damage dealt to
-      you by &6%amount%% &3for &e%amount% seconds&3.
-    active-ready: '&3*Disruptive energy radiates from you* Punch a target to defile
-      it'
-    active-not-ready: '&c*The energy dissipates*'
-    active-activation-message: '&3&lYou disrupted your target''s spiritual balance!'
-    turn-light: '&eYour darkness fades into light!'
-    turn-dark: '&4Darkness overwhelms the light!'
-    spirit-expell: '&3You blast your target with %damage% extra damage!'
-    shield-refresh: '&3You feel a surge of energy'
-    shield-speed: '&3Your shield shatters to give you speed!'
-    attack-boost: '&3You expell your charged attack to deal %damage%% more damage!'
+      &3Clique droit pour basculer
+      l équilibre dans votre objectif,
+      augmentant ses dégâts subis,
+      et de réduire ses dégâts infligés à
+      vous par &6%amount%% &3pour &e%amount% secondes&3.
+    active-ready: '&3*Une énergie perturbatrice rayonne en vous* Frappez une cible
+      pour la souiller'
+    active-not-ready: '&c*l énergie se dissipe*'
+    active-activation-message: '&3&lVous avez perturbé votre cible''de l équilibre
+      spirituel'
+    turn-light: '&eVotre ombre s estompe en lumière!'
+    turn-dark: '&4L ombre submerge la lumière!'
+    spirit-expell: '&3Vous explosez votre cible avec %damage% dommages supplémentaires!'
+    shield-refresh: '&3Vous ressentez une vague d énergie'
+    shield-speed: '&3Votre bouclier se brise pour vous donner de la vitesse!'
+    attack-boost: '&3Vous expulsez votre attaque chargée pour infliger %damage%% de
+      dégâts supplémentaires!'
   priest:
-    name: Prêtre &8(&2&lNEW&8)
+    name: Prêtre &8(&2&lNouveau&8)
     description: |-
-      &3Priests are mainly supporters
-      that can play a huge role in a team.
-      They also have a few extra
-      abilities for survival.
+      &3Les prêtres sont principalement des support
+      qui joue un rôle énorme dans une équipe.
+      Ils ont aussi quelques extra en
+      capacités de survie.
 
-      &e&lStrength
-      &2Priests are mostly defensive.
-      Both for them and their team.
+      &e&lForce
+      &2Les prêtres sont principalement défensifs
+      Pour eux et leur équipe.
 
-      &e&lWeakness
-      &cPriests are vulnerable to unholiness.
-      Such as nether and the end
-      and creatures like Wither.
+      &e&lFaiblesse
+      &cLes prêtres sont vulnérables à l impiété.
+      tel que le nether et l'end
+      et les créatures comme le Wither.
     purification-title: '&6Purification'
     purification-description: |-
-      &eLevel 1&8: &3Guardians, endermen and
-      slimes will no longer target you.
-      &eLevel 2&8: &3Elder guardians, spiders and
-      phantoms will no longer target you.
-      Not that if you attack them they
-      will attack back.
-      &eLevel 3&8: &3Purify the world as you walk
-      on grass to spread flowers.
-    seal-of-life-title: '&6Seal of Life'
+      &eLevel 1&8: &3Les Gardiens/Enderman/Slimes
+      ne vous cibleront plus.
+      &eLevel 2&8: &3Gardiens aînés araignées 
+      les fantomes ne vous cibleront plus.
+      sauf si vous les attaquez 
+      il se defendrons.
+      &eLevel 3&8: &3Purifiez le monde en marchant
+      sur l'herbe pour étaler les fleurs.
+    seal-of-life-title: '&6Sceau de vie'
     seal-of-life-description: |-
-      &3Have a chance to escape enemies
-      when severely wounded.
-      Be invincible and increase regeneration.
-    passive-title: '&6Passive'
+      &3Avoir une chance d echapper aux ennemis
+      gravement blessé.
+      Soyez invincible et augmentez la régénération.
+    passive-title: '&6Passif'
     passive-description: |-
-      &3Walk on water like Jesus (What the fuck)
-      Your body automatically rejects lava.
-      &cYour memories come flooding back as you
-      walk in nether and the end.
-    mind-possession-title: '&6Mind Possession'
+      &3Marcher sur l'eau comme jésus (Putain de merde)
+      Votre corps rejette automatiquement la lave.
+      &cVos souvenirs reviennent comme vous
+      marcher dans le nether et dans l end.
+    mind-possession-title: '&6Possession d esprit'
     mind-possession-description: |-
-      &3Have a chance to paralyze your
-      enemies with slowness and blindness.
-      Higher levels give higher chances and duration.
-    kindling-of-life-title: '&6Kindling of Life'
+      &3Ayez une chance de paralyser votre
+      ennemie avec lenteur et cécité.
+      Plus le niveau est haut plus la durée sera longue.
+    kindling-of-life-title: '&6Allumage de la vie'
     kindling-of-life-description: |-
-      &3Right-click and heal your team mates
-      to support them.
-      Higher levels gives higher velocity
-      and higher health.
+      &3Faites un clic droit et soignez vos coéquipiers
+      pour les soutenir.
+      Plus le niveaux est élevées plus le sort est rapide
+      et les soins plus important..
     asclepius-title: '&6Asclepius'
     asclepius-description: |-
-      &3LR to give effects to players around you.
-      Support your teammates before a fight
-      with some buffs.
+      &3LR pour donner des effets aux joueurs autour de vous.
+      Soutenez vos coéquipiers avant un combat
+      avec quelques buffs.
   none:
     name: None
   select-title: '&8-=( &6%skill_displayname% &8)=-'
@@ -543,14 +531,14 @@ energy:
 command:
   help:
     pages-header: '&8&l&m--------------(&6&l Skills &e%page%&7/&e%maxpages% &8&l&m)--------------'
-    no-hidden-pages: '&cThere are no hidden pages.'
+    no-hidden-pages: '&cIl y a pas de pages cachées.'
     pages-commands: '&7/&3Skills %cmd% &8- &e%description%'
     grouped-header: '&8&l&m--------------(&6&l %group% &8&l&m)--------------'
     grouped-commands: '&7/&3Skills %cmd% &8- &e%description%'
-    select: '&eUse to select a skill'
-    info: '&eUse to see your skill level, stats and improvements'
-    updates: '&eChecks for updates on Spigot.'
-    refresh: '&eReplenish all your energy/blood/imbalance/mana'
+    select: '&eUtilisez pour sélectionner une compétence'
+    info: '&eUtilisez pour voir votre niveau de compétence,vos statistiques et vos améliorations'
+    updates: '&eVérifie les mises à jour sur spigot.'
+    refresh: '&eRemplis vos energies.'
     improve: '&eUse to open your skill''s improvment menu'
     showactivemessages: '&eUse to toggle active skill messages'
     see: '&eUse to see the skill information of another player'
@@ -742,18 +730,18 @@ guis:
   select:
     title: '&8-=( &4&lSkills &8)=-'
   improve:
-    title: '&8-=( &c&lSkill Tree &8)=-'
+    title: '&8-=( &c&lArbre de talents &8)=-'
     cost: |2-
 
       &3Cost&8: &e
   disable:
     ability: |2-
 
-      &cRight-click to disable ability.
+      &cClic droit pour désactiver la capacité.
   enable:
     ability: |2-
 
-      &2Right-click to enable ability.
+      &2Clic droit pour activer la capacité.
   masteries:
     description: |-
       %type%
@@ -762,39 +750,39 @@ guis:
       &3Cost&8: &e%cost%
 
       %description%
-skill-selected: '&3You are now a &e%skills_skill%'
+skill-selected: '&3Vous êtes maintenant &e%skills_skill%'
 ability:
   not-found: '&e%ability% &3ability not found.'
 invalid:
   ability-level: '&cAbility level must be a value between 0-3'
 mastery:
-  title: '&8-=( &c&lMasteries &8)=-'
-  maximum-level: '&cThis mastery is upgraded to the max level.'
+  title: '&8-=( &c&lMaîtrise &8)=-'
+  maximum-level: '&cCette maîtrise est mise à niveau au niveau maximum.'
   not-found: '&e%mastery% &3mastery not found.'
   upgraded: '&3Upgraded &e%mastery% &3mastery.'
   downgraded: '&3Downgraded &e%mastery% &3mastery.'
   cant-downgrade: '&cYou can''t downgrade &e%mastery% &cmastery anymore'
   efficiency:
-    name: '&9Efficiency'
+    name: '&9Efficacité'
     logging:
-      title: '&9Logging'
+      title: '&9Enregistrement'
       desc: |-
         &2When breaking blocks,
         have a chance get bonus items.
     harvesting:
-      title: '&9Harvesting'
+      title: '&9Récolte'
       desc: |-
         &2When harvesting crops,
         have a chance to get
         double the amount
     mining:
-      title: '&9Mining'
+      title: '&9Minage'
       desc: |-
         &2When breaking ores,
         have a chance to gain
         1 additional drop
     pacifist:
-      title: '&9Pacifist'
+      title: '&9Pacifiste'
       desc: |-
         &2Gain Skills experience from
         logging and harvesting crops
@@ -806,38 +794,38 @@ mastery:
         &2If you have more than 20 health,
         regain health from eating food
   brutality:
-    name: '&cBrutality'
+    name: '&cBrutaliter'
     critical:
-      strikes-title: '&cCritical Strikes'
+      strikes-title: '&cCoup critiques'
       strikes-desc: |-
         &2Your critical strikes (Jump hits)
         will deal additional damage.
         This bonus is doubled
         against non-players.
     power:
-      title: '&cPower'
+      title: '&cPuissance'
       desc: |-
         &2Have a chance to deal
         an additonal 1 damage
     brute:
-      force-title: '&cBruteForce'
+      force-title: '&cForce brute'
       force-desc: |-
         &2For every piece of armor you're wearing,
         have a chance to deal 1 more damage
     glory:
-      title: '&cGlory'
+      title: '&cGloire'
       desc: |-
         &2EXP gained from killing mobs
         is increased by a flat amount
     thick:
-      skin-title: '&cThick Skin'
+      skin-title: '&cPeau épaisse'
       skin-desc: |-
         &2Have a chance to reduce
         damage taken by one
   finesse:
-    name: '&5Finesse'
+    name: '&5Délicatesse'
     precision:
-      title: '&5Precision'
+      title: '&5Précision'
       desc: |-
         &2Have a chance to critically strike with
         bows, to deal 50% more damage
@@ -848,12 +836,12 @@ mastery:
         opponent is using, have a chance
         to deal 1 extra damage for each piece
     reap:
-      title: '&5Reap'
+      title: '&5Moissonner'
       desc: |-
         &2Have a chance to gain
         an extra soul per kill.
     adriot:
-      title: '&5Adriot'
+      title: '&5Adroit'
       desc: |-
         &2When handling weapons, have
         a chance to not lose durability
